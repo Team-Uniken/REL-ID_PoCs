@@ -8,9 +8,7 @@
 | **Release Date**       | 04-Mar-2016                            |
 | **Author**             | Anant Chitale                          |
 | **Document Owner**     | Chetan Bokariya                        |
-
-
-
+   
 ####Modification Summary
 
 | **Version** | **Created / Modified By** | **Modification Date** | **Modification Notes** |
@@ -28,9 +26,6 @@ If you have any questions or suggestions regarding the contents of this document
 | **Phone**         | +91-20-66427970/71/72/73      |
 | **E-mail**        | <chetan.bokariya@uniken.com>  |
 
-
-
-
 ####Proprietary Notice
 
 This publication has been prepared and published by Uniken Innovation Center and is copyright. No part of this document may in any form or by any means (electronic, mechanical, micro-copying, photocopying, recording or otherwise) be reproduced, stored in a retrieval system or transmitted without prior written permission from the document controller. Product or company names are trademarks of their respective holders.
@@ -39,6 +34,8 @@ Due care has been taken to make this document as accurate as possible. However, 
 
 The Document Control Information section contains the contact details for inquiries, comments and to propose changes to the document.
 
+<br>
+<br>
 
 #Introduction
 
@@ -47,26 +44,23 @@ REL-ID Gateway Manager (GM) is a web application that provides the administrator
 The tutorial covers the following modules:
 
 1.  LOG-IN
-
 2.  USER
-
 3.  GROUP
-
 4.  APPLICATION
-
 5.  ADMINISTRATION
-
 6.  REPORTS
+7.  LICENSE
 
-7.  8.  LICENSE
+<br>
+<br>
 
-    <span id="_Ref436997488" class="anchor"><span id="_Toc444707113" class="anchor"><span id="_Toc444866854" class="anchor"></span></span></span>LOG-IN
+#LOG-IN
 
 Before you can start this tutorial you must have the login credentials required to log-into the REL-ID GM and the link to GW web application.
 
 You can launch the GM web application in a web browser and log-into REL-ID GM using the credentials.
 
-<img src="media/image5.png" width="609" height="283" />
+<img src="https://github.com/Team-Uniken/REL-ID_PoCs/raw/master/gateway-asets/Picture1.png" width="609"/>
 
 On successful login, you will enter the GM and will be able to see the following menu items:
 
