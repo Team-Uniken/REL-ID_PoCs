@@ -1,0 +1,595 @@
+#Document Control Information
+
+####Basic Details
+
+| **Document File Name** | REL-ID Gateway\_Manager\_ManualForNWD2 |
+|------------------------|----------------------------------------|
+| **Version \#**         | 1.0                                    |
+| **Release Date**       | 04-Mar-2016                            |
+| **Author**             | Anant Chitale                          |
+| **Document Owner**     | Chetan Bokariya                        |
+
+
+
+####Modification Summary
+
+| **Version** | **Created / Modified By** | **Modification Date** | **Modification Notes** |
+|-------------|---------------------------|-----------------------|------------------------|
+| 0.1         | Anant Chitale             | 04-Mar-2016           | Initial draft          |
+| 1.0         | Chetan Bokariya           |                       | Baseline               |
+
+
+####Contacts for Inquiries and Proposed Changes
+If you have any questions or suggestions regarding the contents of this document, please contact:
+
+| **Name**          | Chetan Bokariya               |
+|:--------------------|:-------------------------------|
+| **Designation**   | AVP Mobile Technical Presales |
+| **Phone**         | +91-20-66427970/71/72/73      |
+| **E-mail**        | <chetan.bokariya@uniken.com>  |
+
+
+
+
+####Proprietary Notice
+
+This publication has been prepared and published by Uniken Innovation Center and is copyright. No part of this document may in any form or by any means (electronic, mechanical, micro-copying, photocopying, recording or otherwise) be reproduced, stored in a retrieval system or transmitted without prior written permission from the document controller. Product or company names are trademarks of their respective holders.
+
+Due care has been taken to make this document as accurate as possible. However, Uniken makes no representation or warranties with respect to the contents hereof and shall not be responsible for any loss or damage caused to the user by the direct or indirect use of this document. Furthermore, Uniken reserves the right to alter, modify or otherwise change in any manner the content hereof, without obligation of Uniken to notify any person of such revision or changes.
+
+The Document Control Information section contains the contact details for inquiries, comments and to propose changes to the document.
+
+
+#Introduction
+
+REL-ID Gateway Manager (GM) is a web application that provides the administrator a graphical interface to manage REL-ID users and applications. This manual is specifically designed to help a Level 3 (L3) administrator to learn how to carry out the necessary day-to-day operations with REL-ID. Through this portal, the L3 administrator will be able to manage and monitor activities performed by the operators.
+
+The tutorial covers the following modules:
+
+1.  LOG-IN
+
+2.  USER
+
+3.  GROUP
+
+4.  APPLICATION
+
+5.  ADMINISTRATION
+
+6.  REPORTS
+
+7.  8.  LICENSE
+
+    <span id="_Ref436997488" class="anchor"><span id="_Toc444707113" class="anchor"><span id="_Toc444866854" class="anchor"></span></span></span>LOG-IN
+
+Before you can start this tutorial you must have the login credentials required to log-into the REL-ID GM and the link to GW web application.
+
+You can launch the GM web application in a web browser and log-into REL-ID GM using the credentials.
+
+<img src="media/image5.png" width="609" height="283" />
+
+On successful login, you will enter the GM and will be able to see the following menu items:
+
+User | Group | Application | Server management | Report | Administrator | License
+
+<span id="_Ref436997506" class="anchor"><span id="_Toc444707114" class="anchor"><span id="_Toc444866855" class="anchor"></span></span></span>USER
+
+This module enables you to monitor, enroll and manage users. This module comprises of the following sub-modules:
+
+<span id="_Toc444707115" class="anchor"><span id="_Toc444866856" class="anchor"></span></span>User Request
+
+Here you can view all the user related activities performed by the other operators.
+
+<img src="media/image6.png" width="615" height="106" />
+
+<span id="_Toc444707116" class="anchor"><span id="_Toc444866857" class="anchor"></span></span>Search
+
+Through “Search” you will be able to see all the activities performed by other operators. You can filter your search based on
+
+1.  User ID/Group/Agent and Server ID (In case there are multiple REL-ID Gateway Servers)
+
+2.  Request status – Pending/Processed/Discarded etc.
+
+3.  User Type – User/Group/Agent/Server
+
+You can see activities categorized under - Request ID, ID (User ID), Request Type, Comments (if any), Status of the request, User Type (User, Group, Agent or Server), Creator (Admin user ID), Creation Time Stamp, Return Message (Success/Failure) and attempt counter.
+
+<span id="_Toc444707117" class="anchor"><span id="_Toc444866858" class="anchor"></span></span>Actions
+
+You can select pending request/s and discard only those requests generated by you.
+
+<span id="_Toc444707118" class="anchor"><span id="_Toc444866859" class="anchor"></span></span>User Management
+
+Click on user button and select User Management from the drop down menu. You will see the below screen
+
+<img src="media/image13.png" width="624" height="60" />
+
+<span id="_Toc444707119" class="anchor"><span id="_Toc444866860" class="anchor"></span></span>Search user
+
+You can also search for an existing enrolled user. Enter user ID and click “**Search**”
+
+OR
+
+you can select only the Group Name from the list and click “**Search**”. All users in the group will be listed. Click on the user ID you need and view the user details.
+
+If the search fields are empty and search button is clicked, it will present the list of all the users.
+
+You can perform the following bulk activities by selecting users from the list.
+
+Select users by checking the check box provided in the first column. You can select all or multiple users.
+
+<img src="media/image15.png" width="622" height="186" />
+
+**Remove All Parameters**: Enables you to remove user level parameters if set
+
+**Get Selected User Credentials**: You can select users from the list and get user credentials (activation credentials) for the selected users in .csv/.xlsx format.
+
+<span id="_Toc444707120" class="anchor"><span id="_Toc444866861" class="anchor"></span></span>User Details:
+
+Individual user ID search or clicking on User ID from the searched list will display details of the users under following tab:
+
+1.  **Overview**: Provides:
+
+-   **User Status**: As Created/Active/Suspended/Paused/Terminated along with the time stamp of the status.
+
+-   **User enrollment time stamp**, User ID and the Group Name the user ID belongs to.
+
+-   **User ID**
+
+-   **Group Name**
+
+<img src="media/image16.png" width="620" height="113" />
+
+1.  **User Request**: Provides details on the various administrative activities performed for the user.
+
+<img src="media/image17.png" width="621" height="83" />
+
+1.  **Application Group Details**: This tab displays the list of all the application groups created and provides the administrator an interface to link users to the applications.
+
+<img src="media/image18.png" width="622" height="182" />
+
+<img src="media/image19.png" width="624" height="75" />
+
+1.  **Device Details**: Provides a list of all the devices that are bound to the user along with details of UUID, Device ID, Device Alias (as set by the user), Device Status and provision to Delete All Devices.
+
+<img src="media/image20.png" width="621" height="106" />
+
+-   Delete Device - to delete individual device
+
+-   Delete Device and All Bindings – enables you to delete all the users bound to that device.
+
+    <span id="_Toc444707121" class="anchor"><span id="_Toc444866862" class="anchor"></span></span>Administrative Action
+
+Administrative Action enables you to:
+
+1.  **Regenerate Credentials**: Incase an enrolled user has lost or misplaced the user credentials, you can regenerate the user credentials by opting for this option.
+
+<span id="_Toc444707122" class="anchor"><span id="_Toc444866863" class="anchor"></span></span>
+
+Actions
+
+Other actions enable you to
+
+1.  **Get User Credentials:** After successful enrolment of a User, the Activation credentials (Verification Key and Activation Code) will be delivered to the user via configured channel i.e. SMS/Email/Snail Mail. In case you need to access the user credentials it can be made available in an .xlsx/.csv file format.
+
+2.  <img src="media/image23.png" width="499" height="257" />**View Configuration:** You will be able to view (only) the configurations set (if any) for the user. Configurations including- Button Config, Tunnel Config, Tunnels, User Settings and Device Binding Configurations.
+
+3.  **General Settings:** Enables you to view and edit the following settings
+
+    1.  <img src="media/image24.png" width="620" height="328" />**User Settings:** This feature allows you to set the user settings in-respect to
+
+        1.  2.  SSO Settings
+
+        3.  Biometric
+
+        4.  Expiry Time
+
+        5.  Clip Board
+
+        6.  Version Info
+
+        7.  Tunnel Proxy
+
+        8.  Server Settings
+
+        9.  Remove Coolies
+
+        10. Browser Setting
+
+    2.  <img src="media/image25.png" width="623" height="110" />**Device Binding Configurations:** This feature allows you to set the maximum number of permanent and temporary devices allowed for a user
+
+    3.  **Application Parameters:** You can set the session time out (in seconds), Password history (Number of previous passwords to be maintained), and Password Expiry (in number of days).
+
+<img src="media/image26.png" width="623" height="140" />
+
+1.  **Remove All Parameters:**
+
+> Click on “**Remove All Application Params**” to remove previously set parameters.
+
+<img src="media/image27.png" width="623" height="170" />
+
+<span id="_Ref436997554" class="anchor"><span id="_Toc444707123" class="anchor"><span id="_Toc444866864" class="anchor"></span></span></span>GROUP
+
+You can perform user group related activities here. Click on the GROUP icon and select type of activity from the dropdown menu.
+
+<img src="media/image28.png" width="623" height="125" />
+
+<span id="_Toc444707124" class="anchor"><span id="_Toc444866865" class="anchor"></span></span>Group management
+
+As REL-ID is required to fetch users from the Active Directory, this function is disabled.
+
+<img src="media/image29.png" width="623" height="107" />
+
+<span id="_Toc444707125" class="anchor"><span id="_Toc444866866" class="anchor"></span></span>FQDN Management
+
+To Create/Enroll/Add AD-FQDN, select FQDM Management
+
+<img src="media/image30.png" width="622" height="108" />
+
+<span id="_Toc444707126" class="anchor"><span id="_Toc444866867" class="anchor"></span></span>Search FQDN
+
+You can search FQDN groups added to REL-ID by entering the FQDN name in the search field or click on **Search** keeping the search field empty. This will provide a list of all the FQDN groups included in REL-ID.
+
+<img src="media/image31.png" width="623" height="120" />
+
+<span id="_Toc444707127" class="anchor"><span id="_Toc444866868" class="anchor"></span></span>Add FQDN
+
+To add a new FQDN, click on the Add FQDN button. In the window that opens, specify the following:
+
+1.  Fully Qualified Domain Name (FQDN) for the AD group to be included.
+
+2.  IP of the AD
+
+3.  Port on with the AD communicates
+
+4.  User ID of the Administrator for the AD group
+
+5.  Password for the User ID
+
+6.  Re-enter the password
+
+7.  In case the AD uses Kerberos authentication enable the authentication by selecting.
+
+<img src="media/image32.png" width="624" height="266" />
+
+Clicking on Save will create an FQDN group. To fetch AD FQDN group users please refer Synch FQDN Users
+
+<span id="_Toc444707128" class="anchor"><span id="_Toc444866869" class="anchor"></span></span>Actions
+
+You can perform the following activities on the FQDN group created. Select an FQDN group from the list and click on Actions.
+
+<img src="media/image33.png" width="620" height="119" />
+
+<span id="_Toc444707129" class="anchor"><span id="_Toc444866870" class="anchor"></span></span>Edit FQDN
+
+You can make changes to the existing FQDN through the edit button
+
+<img src="media/image34.png" width="624" height="264" />
+
+<span id="_Toc444707130" class="anchor"><span id="_Toc444866871" class="anchor"></span></span>View FQDN Users
+
+You can view all the users under the selected FQDN group
+
+<img src="media/image35.png" width="601" height="285" />
+
+<span id="_Toc444707131" class="anchor"><span id="_Toc444866872" class="anchor"></span></span>Synch FQDN Group
+
+If an FQDN has groups, the users along with group will be fetched and updated when you select this option.
+
+<span id="_Ref437008219" class="anchor"><span id="_Toc444707132" class="anchor"><span id="_Toc444866873" class="anchor"></span></span></span>Synch FQDN Users
+
+This helps to fetch all the users from the FQDN Group and enroll them into REL-ID. Synching also helps update the REL-ID enrolled user list with the AD FQDN Group.
+
+<span id="_Ref436997574" class="anchor"><span id="_Toc444707133" class="anchor"><span id="_Toc444866874" class="anchor"></span></span></span>APPLICATION
+
+The applications which need to be accessible through REL-ID need to be configured in the Gateway Manager.
+
+<img src="media/image36.png" width="621" height="172" />
+
+To add a new application:
+
+<span id="_Toc444707134" class="anchor"><span id="_Toc444866875" class="anchor"></span></span>Site Management
+
+Select Site Management. Clicking Search will display all the sites previously added.
+
+<img src="media/image37.png" width="620" height="57" />
+
+<span id="_Toc444707135" class="anchor"><span id="_Toc444866876" class="anchor"></span></span>Edit Site
+
+You can click on the Site Name and view the Site details. Here you can edit the site details and update the site.
+
+<img src="media/image38.png" width="621" height="149" />
+
+<span id="_Toc444707136" class="anchor"><span id="_Toc444866877" class="anchor"></span></span>Add Site
+
+To configure application that needs to be secured their entries have to be added as add site. Click on Add Site button and enter the site details
+
+<img src="media/image39.png" width="624" height="289" />
+
+Click on **Save** the site details. Now provide the Tunnel Target and click on Add Save Target.
+
+<img src="media/image40.png" width="624" height="137" />
+
+<span id="_Toc444707137" class="anchor"><span id="_Toc444866878" class="anchor"></span></span>Search Site
+
+You can enter the site name or click on search button to fetch a list of all the sites that have been added.
+
+<img src="media/image41.png" width="624" height="158" />
+
+<span id="_Toc444707138" class="anchor"><span id="_Toc444866879" class="anchor"></span></span>Delete Site
+
+Select a site from the list and click Delete Site to delete the site.
+
+<span id="_Toc444707139" class="anchor"><span id="_Toc444866880" class="anchor"></span></span>Application Group
+
+You can club a set of applications under an Application Group, and manage the application settings.
+
+<img src="media/image42.png" width="622" height="105" />
+
+<span id="_Toc444707140" class="anchor"><span id="_Toc444866881" class="anchor"></span></span>
+
+Search Application Group
+
+Enter the application group name and search to get the application group or click on search with the Application Group Name field empty to fetch a list of all the application groups created.
+
+<img src="media/image43.png" width="622" height="185" />
+
+<span id="_Toc444707141" class="anchor"><span id="_Toc444866882" class="anchor"></span></span>Add Application Group
+
+Click on Add Application Group and fill the required fields and click save. An application group will be created.
+
+<img src="media/image44.png" width="624" height="165" />
+
+<span id="_Toc444707142" class="anchor"><span id="_Toc444866883" class="anchor"></span></span>Delete Application Group
+
+Select application group/s and click on Delete Application Group to delete application groups.
+
+<span id="_Toc444707143" class="anchor"><span id="_Toc444866884" class="anchor"></span></span>
+
+Bulk Action
+
+You can select group/s from the list of application groups and assign configured sites to the groups selected.
+
+1.  Select group/s
+
+2.  Click on Bulk Action and select ‘Assign to Application’
+
+3.  From the list of sites select sites to be assigned and Save
+
+<img src="media/image45.png" width="621" height="235" />
+
+<span id="_Toc444707144" class="anchor"><span id="_Toc444866885" class="anchor"></span></span>Application Management
+
+This interface enables you to add new applications, search/view/modify the existing application settings.
+
+<img src="media/image46.png" width="621" height="106" />
+
+<span id="_Toc444707145" class="anchor"><span id="_Toc444866886" class="anchor"></span></span>Search
+
+Enter the application name and search to get the application group or click on search with the Application Name field empty to fetch a list of all the applications created.
+
+<img src="media/image47.png" width="542" height="218" />
+
+<span id="_Toc444707146" class="anchor"><span id="_Toc444866887" class="anchor"></span></span>Add/View/Edit Application
+
+1.  **Application Details:** You can create an application by providing the required fields
+
+<!-- -->
+
+1.  Name - of the application
+
+2.  Display Order – as this application will be displayed as a tile on the REL-ID AppSecure Client its display order needs to be assigned.
+
+3.  Button Type – you can select between
+
+    1.  Web – if it is a web application to open in a default web browser
+
+    2.  Local – To fetch application components from local device For E.g. Mobile app.
+
+    3.  App – in case a third party thick client application needs to be launched
+
+4.  Select Prefetch – Yes/No
+
+5.  Browser Mode – Popup/Tab
+
+6.  URL/Info of App –
+
+    1.  URL- If the button type selected is Web or LOCAL, you need to specify the URL.
+
+    2.  Info of App – when button type selected is App. You need to specify the app info in this pipe separated format: - **External Application Name||Path||Argument**. In case of mobile apps please specify the applications name e.g. Email
+
+7.  Image – You can select an image to be viewed as tile on the REL-ID SecureApp Client
+
+8.  Viewer Type – For button type Web/Local the viewer type can be specified as
+
+    1.  Launch App Viewer – Launch application in hardened browser
+
+    2.  Launch Quick App – Launch the application within the REL-ID Secure App Client such as Change PIN, Change Secret Q&A, and Generate OTP. Etc.
+
+9.  Full Size - Yes/No
+
+10. Browser Type – Valid only in case of Web Apps, IE View or Web View.
+
+<img src="media/image48.png" width="624" height="276" />
+
+1.  **Site details:** you can view and associate sit/s to the application
+
+<img src="media/image49.png" width="621" height="361" />
+
+1.  **Application Group**: View and associate Application Group/s to the application
+
+<img src="media/image50.png" width="624" height="344" />
+
+Save application.
+
+<span id="_Toc444707147" class="anchor"><span id="_Toc444866888" class="anchor"></span></span>
+
+Delete Application
+
+Select application/s from the list and click on Delete Application
+
+<img src="media/image47.png" width="606" height="244" />
+
+<span id="_Ref436997623" class="anchor"><span id="_Toc444707150" class="anchor"><span id="_Toc444866889" class="anchor"></span></span></span>REPORTS
+
+The Gateway Manager enables you to generate various types of reports. The reports are majorly categorized as User Reports and Server Reports
+
+<span id="_Toc444707151" class="anchor"><span id="_Toc444866890" class="anchor"></span></span>User Reports
+
+You can generate user monitoring reports such as:
+
+<img src="media/image51.png" width="624" height="175" />
+
+<span id="_Toc444707152" class="anchor"><span id="_Toc444866891" class="anchor"></span></span>Audit report
+
+This report provides details of all the activities performed by Gateway Manager Console Users.
+
+<img src="media/image52.png" width="180" height="159" /><img src="media/image53.png" width="624" height="131" />
+
+Specify the date range and select a report type from the dropdown to generate the report. You will be able to view and download the report in a ‘.csv’ format.
+
+<img src="media/image54.png" width="624" height="133" />
+
+<span id="_Toc444707153" class="anchor"><span id="_Toc444866892" class="anchor"></span></span>User Statistics Report
+
+You can choose to export various types of reports:
+
+<img src="media/image55.png" width="621" height="110" />
+
+**User Statistics Report** – Provide data on access logs for a group, for the specified duration
+
+**User Enrollment Report** – Provides data on total number enrollments in the specified duration
+
+**User Status report** - Provides data on total number All/Active/Created/Reset/To be Reset/ Blocked/Paused/Suspended/Terminated users in the specified duration
+
+**User Rename Log Report** - Provides data on total number users who were renamed in the specified duration
+
+**Server Session Report** - Provides data on user activity for the specified duration
+
+**Prompt Statistics Report** – A comprehensive report for the said duration.
+
+<span id="_Toc444707154" class="anchor"><span id="_Toc444866893" class="anchor"></span></span>Server Report
+
+You can generate reports for all the server related activity
+
+<span id="_Toc444707155" class="anchor"><span id="_Toc444866894" class="anchor"></span></span>Server Access Report
+
+Generate a detailed or summary report for all or any of the events mentioned in the drop down menu. User/IP specific reports could also be generat<img src="media/image56.png" width="593" height="183" />ed.
+
+<span id="_Toc444707156" class="anchor"><span id="_Toc444866895" class="anchor"></span></span>Server Monitoring Report
+
+Helps generate server monitoring for a specific IP or Host name. You can generate current/ hourly/daily and user specific statistic report
+
+<img src="media/image57.png" width="624" height="90" />
+
+<span id="_Toc444707157" class="anchor"><span id="_Toc444866896" class="anchor"></span></span>SMS Pusher Report
+
+Report on the SMS’s being sent by the server to the SMS Gateway, based on their status (All/Queued/Sent/Failed)
+
+<img src="media/image58.png" width="624" height="115" />
+
+<span id="_Toc444707158" class="anchor"><span id="_Toc444866897" class="anchor"></span></span>Email Pusher Report
+
+Report on the Email’s being sent by the server, based on their status (All/Queued/Sent/Failed)
+
+<img src="media/image59.png" width="624" height="113" />
+
+<span id="_Toc444707159" class="anchor"><span id="_Toc444866898" class="anchor"></span></span>User Detailed Report
+
+Helps generate detailed report for a specific user
+
+<img src="media/image60.png" width="623" height="140" />
+
+<span id="_Ref436997604" class="anchor"><span id="_Toc444707160" class="anchor"><span id="_Toc444866899" class="anchor"></span></span></span>ADMINISTRATION
+
+It provides you with an interface to create role, administrative console users and assign roles to the users.
+
+<img src="media/image61.png" width="624" height="189" />
+
+<span id="_Toc444707161" class="anchor"><span id="_Toc444866900" class="anchor"></span></span>Console User Management
+
+You can view, edit and create console users with this interface.
+
+<span id="_Toc444707162" class="anchor"><span id="_Toc444866901" class="anchor"></span></span>Search
+
+<img src="media/image66.png" width="613" height="131" />Enter the Login ID and/or specify status and/or roll parameters to conduct the search or click on search with the Login ID field empty and any in the Status and Roles fields to fetch a list of all the enrolled console users.
+
+<span id="_Toc444707163" class="anchor"><span id="_Toc444866902" class="anchor"></span></span>Add New Console User
+
+1.  Click on the Add New Console User
+
+2.  Specify login ID and password (The user will be prompted to change the password on first login)
+
+3.  <img src="media/image67.png" width="623" height="238" /> Assign a Role (Administrator/Operator) and Click **Save**
+
+    <span id="_Toc444707164" class="anchor"><span id="_Toc444866903" class="anchor"></span></span>Actions
+
+You can select the user and perform various activities for the selected console user
+
+<img src="media/image68.png" width="631" height="135" />
+
+1.  2.  Update Role
+
+3.  Suspend user
+
+4.  Activate Console User
+
+5.  Terminate User
+
+6.  Reset Password
+
+<span id="_Ref437001909" class="anchor"><span id="_Toc444707168" class="anchor"><span id="_Toc444866904" class="anchor"></span></span></span>
+
+LICENSE
+
+<span id="_Toc444866905" class="anchor"></span>License Management
+
+You can view license details and upload license
+
+<img src="media/image69.png" width="623" height="282" />
+
+<span id="_Toc444866906" class="anchor"></span>The Overview Tab
+
+**Server Device ID**: Displays the Server ID and the Server Device ID. The Sever Device ID is required to generate renewal/upgrade license. The administrator can export the Server Device ID by clicking on “Export Server Device ID” which is downloaded as a text file.
+
+The administrator sends this Server Device ID file to Uniken and Uniken administrator generates the required license.
+
+**License Details**: This table provides details on the license that include – Server ID, Permitted User Enrollments, Permitted Group Enrollments, permitted Concurrency Settings, License Issue Date, License Expiry Date, Creation Timestamp and Actions
+
+**License Log Details:** Provides details on Server ID’s current timestamp
+
+**Current Server Status**: Provides details on user count, group count and current time stamp
+
+<span id="_Toc444866907" class="anchor"></span>Action Tab
+
+**Upload License:** Enables user to upload license
+
+<img src="media/image70.png" width="614" height="131" />
+
+<span id="_Toc444866908" class="anchor"></span>License Upload
+
+-   Once the user receives the license from Uniken Administrator, he/she can save it at a location on the local drive.
+
+-   The user then clicks on “Choose file” button to navigate to the location where the license file is placed and selects the license file.
+
+-   Click on Upload License.
+
+-   On successful upload, the user receives a license upload success message.
+
+-   The user then clicks on Reload Page
+
+-   The changes reflect in the Overview tab.
+
+| <span id="_Toc444696490" class="anchor"></span><img src="media/image71.png" width="134" height="26" />                                 |
+|----------------------------------------------------------------------------------------------------------------------------------------|
+| For more information, contact <info@uniken.com>                                                                                        
+                                                                                                                                         
+ [Website](http://www.uniken.com) | [LinkedIn ](https://in.linkedin.com/company/uniken-inc) | [Twitter](https://twitter.com/Uniken_Inc)  
+                                                                                                                                         
+ © 2016 Uniken Inc. All rights reserved.                                                                                                 
+                                                                                                                                         
+ **Corporate Office:** 466 Southern Blvd 2nd Flr, Chatham New Jersey 07928 USA | +1 844 33RELID                                          
+                                                                                                                                         
+ **Innovation Center:** A-901, 9<sup>th</sup> Floor, Sr. No. 103, Teerth Technospace, Baner, Pune 411045 India | +91 20 6725 3900        |
+
+
