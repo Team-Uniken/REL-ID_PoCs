@@ -1,4 +1,4 @@
-#USER ACTIVATION
+#USER ACTIVATION MANUAL
 
 ###Table of Contents
 - 1.	[Introduction](#1)

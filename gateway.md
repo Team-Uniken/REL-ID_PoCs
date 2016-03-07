@@ -1,68 +1,66 @@
 
 
-2.  LOG-IN 
-3.  USER
-3.1.    User Request
-3.1.1.  Search:
-3.1.2.  Actions:
-3.2.    User Management
-3.2.1.  Search user
-3.2.1.1.    User Details:
-3.2.1.2.    Administrative Action
-3.2.1.3.    Actions
-4.  GROUP   
-4.1.    Group management
-4.2.    FQDN Management
-4.2.1.  Search FQDN
-4.3.    Add FQDN
-4.4.    Actions
-4.4.1.  Edit FQDN
-4.4.2.  View FQDN Users 14
-4.4.3.  Synch FQDN Group    14
-4.4.4.  Synch FQDN Users:   14
-5.  APPLICATION 14
-5.1.    Site Management 15
-5.1.1.  Edit Site   15
-5.1.2.  Add Site    15
-5.1.3.  Search Site 16
-5.1.4.  Delete Site 16
-5.2.    Application Group   16
-5.2.1.  Search Application Group    17
-5.2.2.  Add Application Group   17
-5.2.3.  Delete Application Group    17
-5.2.4.  Bulk Action 18
-5.3.    Application Management  18
-5.3.1.  Search  18
-5.3.2.  Add/View/Edit Application   19
-5.3.3.  Delete Application  21
-6.  REPORTS 21
-6.1.    User Reports    21
-6.1.1.  Audit report    21
-6.1.2.  User Statistics Report  22
-6.2.    Server Report   22
-6.2.1.  Server Access Report    22
-6.2.2.  Server Monitoring Report    23
-6.2.3.  SMS Pusher Report   23
-6.2.4.  Email Pusher Report 23
-6.2.5.  User Detailed Report    23
-7.  ADMINISTRATION  24
-7.1.    Console User Management 24
-7.1.1.  Search  24
-7.1.2.  Add New Console User    24
-7.1.3.  Actions 25
-8.  LICENSE 26
-8.1.    License Management  26
-8.1.1.  The Overview Tab    26
-8.1.2.  Action Tab  26
-8.1.3.  License Upload  27
+#GATEWAY MANUAL
+
+- 1      [INTRODUCTION](#1)
+- 2      [LOG-IN](#2)
+- 3      [USER](#3)
+- 3.1    [User Request](#3.1)
+- 3.1.1  [Search](#3.1.1)
+- 3.1.2  [Actions](#3.1.2)
+- 3.2    [User Management](#3.2)
+- 3.2.1  [Search user](#3.2.1)
+- 3.2.1.1 [User Details](#3.2.1.1)
+- 3.2.1.2 [Administrative Action](#3.2.1.2)
+- 3.2.1.3 [Actions](#3.2.1.3)
+- 4      [GROUP](#4)
+- 4.1    [Group management](#4.1)
+- 4.2    [FQDN Management](#4.2)
+- 4.2.1  [Search FQDN](#4.2.1)
+- 4.3    [Add FQDN](#4.3)
+- 4.4    [Actions](#4.4)
+- 4.4.1  [Edit FQDN](#4.4.1)
+- 4.4.2  [View FQDN Users](#4.4.2)
+- 4.4.3  [Synch FQDN Group](#4.4.3)
+- 4.4.4  [Synch FQDN Users](#4.4.4)
+- 5      [APPLICATION](#4)
+- 5.1    [Site Management](#5.1)
+- 5.1.1  [Edit Site](#5.1.1)
+- 5.1.2  [Add Site](#5.1.2)
+- 5.1.3  [Search Site](#5.1.3)
+- 5.1.4  [Delete Site](#5.1.4)
+- 5.2    [Application Group](#5.2)
+- 5.2.1  [Search Application Group](#5.2.1)
+- 5.2.2  [Add Application Group](#5.2.2)
+- 5.2.3  [Delete Application Group](#5.2.3)
+- 5.2.4  [Bulk Action](#5.2.4)
+- 5.3    [Application Management](#5.3)
+- 5.3.1  [Search](#5.3.1)
+- 5.3.2  [Add/View/Edit Application](#5.3.2)
+- 5.3.3  [Delete Application](#5.3.3)
+- 6      [REPORTS](#6)
+- 6.1    [User Reports](#6.1)
+- 6.1.1  [Audit report](#6.1.1)
+- 6.1.2  [User Statistics Report](#6.1.2)
+- 6.2    [Server Report](#6.2)
+- 6.2.1  [Server Access Report](#6.2.1)
+- 6.2.2  [Server Monitoring Report](#6.2.2)
+- 6.2.3  [SMS Pusher Report](#6.2.3)
+- 6.2.4  [Email Pusher Report](#6.2.4)
+- 6.2.5  [User Detailed Report](#6.2.5)
+- 7      [ADMINISTRATION](#7)
+- 7.1    [Console User Management](#7.1)
+- 7.1.1  [Search](#7.1.1)
+- 7.1.2  [Add New Console User](#7.1.2)
+- 7.1.3  [Actions](#7.1.3)
+- 8      [LICENSE](#8)
+- 8.1    [License Management](#8.1)
+- 8.1.1  [The Overview Tab](#8.1.1)
+- 8.1.2  [Action Tab](#8.1.2)
+- 8.1.3  [License Upload](#8.1.3)
 
 
-
-
-
-
-
-#Document Control Information
+###Document Control Information
 
 ####Basic Details
 
@@ -107,8 +105,8 @@ The Document Control Information section contains the contact details for inquir
 
 
 
-
-#1. Introduction
+<a name="1"></a>
+#1 Introduction
 
 REL-ID Gateway Manager (GM) is a web application that provides the administrator a graphical interface to manage REL-ID users and applications. This manual is specifically designed to help a Level 3 (L3) administrator to learn how to carry out the necessary day-to-day operations with REL-ID. Through this portal, the L3 administrator will be able to manage and monitor activities performed by the operators.
 
@@ -126,8 +124,8 @@ The tutorial covers the following modules:
 <br>
 
 
-
-#2. LOG-IN
+<a name="2"></a>
+#2 LOG-IN
 
 Before you can start this tutorial you must have the login credentials required to log-into the REL-ID GM and the link to GW web application.
 
@@ -144,17 +142,19 @@ User | Group | Application | Server management | Report | Administrator | Licens
 <br>
 
 
-
-#3. USER
+<a name="3"></a>
+#3 USER
 
 This module enables you to monitor, enroll and manage users. This module comprises of the following sub-modules:
 
+<a name="3.1"></a>
 ##3.1 User Request
 
 Here you can view all the user related activities performed by the other operators.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture2.png" />
 
+<a name="3.1.1"></a>
 ###3.1.1 Search
 
 Through “Search” you will be able to see all the activities performed by other operators. You can filter your search based on
@@ -167,18 +167,21 @@ You can see activities categorized under - Request ID, ID (User ID), Request Typ
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture3.png"/>
 
+<a name="3.1.2"></a>
 ###3.1.2 Actions
 
 You can select pending request/s and discard only those requests generated by you.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture4.png"/>
 
+<a name="3.2"></a>
 ##3.2 User Management
 
 Click on user button and select User Management from the drop down menu. You will see the below screen
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture5.png"/>
 
+<a name="3.2.1"></a>
 ###3.2.1 Search user
 
 You can also search for an existing enrolled user. Enter user ID and click “**Search**”
@@ -202,6 +205,8 @@ Select users by checking the check box provided in the first column. You can sel
 
 **Get Selected User Credentials**: You can select users from the list and get user credentials (activation credentials) for the selected users in .csv/.xlsx format.
 
+
+<a name="3.2.2"></a>
 ###3.2.2 User Details
 
 Individual user ID search or clicking on User ID from the searched list will display details of the users under following tab:
@@ -223,7 +228,7 @@ Individual user ID search or clicking on User ID from the searched list will dis
     <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture12.png"/>
 
 
-
+<a name="3.2.3"></a>
 ###3.2.3 Administrative Action
 
 Administrative Action enables you to:
@@ -271,31 +276,36 @@ Click on “**Remove All Application Params**” to remove previously set parame
 <br>
 <br>
 
-
+<a name="4"></a>
 #4 GROUP
 You can perform user group related activities here. Click on the GROUP icon and select type of activity from the dropdown menu.
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture19.png"/>
 
 
+<a name="4.1"></a>
 ##4.1 Group management
 
 As REL-ID is required to fetch users from the Active Directory, this function is disabled.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture20.png"/>
 
+
+<a name="4.2"></a>
 ##4.2 FQDN Management
 
 To Create/Enroll/Add AD-FQDN, select FQDM Management
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture21.png"/>
 
-
+<a name="4.2.1"></a>
 ###4.2.1 Search FQDN
 
 You can search FQDN groups added to REL-ID by entering the FQDN name in the search field or click on **Search** keeping the search field empty. This will provide a list of all the FQDN groups included in REL-ID.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture22.png"/>
 
+
+<a name="4.3"></a>
 ##4.3 Add FQDN
 
 To add a new FQDN, click on the Add FQDN button. In the window that opens, specify the following:
@@ -311,28 +321,35 @@ To add a new FQDN, click on the Add FQDN button. In the window that opens, speci
 
 Clicking on Save will create an FQDN group. To fetch AD FQDN group users please refer Synch FQDN Users
 
+
+<a name="4.4"></a>
 ##4.4 Actions
 
 You can perform the following activities on the FQDN group created. Select an FQDN group from the list and click on Actions.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture24.png"/>
 
+
+<a name="4.4.1"></a>
 ###4.4.1 Edit FQDN
 
 You can make changes to the existing FQDN through the edit button
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture25.png"/>
 
+<a name="4.4.2"></a>
 ###4.4.2 View FQDN Users
 
 You can view all the users under the selected FQDN group
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture26.png"/>
 
+<a name="4.4.3"></a>
 ###4.4.3 Synch FQDN Group
 
 If an FQDN has groups, the users along with group will be fetched and updated when you select this option.
 
+<a name="4.4.4"></a>
 ###4.4.4 Synch FQDN Users
 
 This helps to fetch all the users from the FQDN Group and enroll them into REL-ID. Synching also helps update the REL-ID enrolled user list with the AD FQDN Group.
@@ -341,6 +358,8 @@ This helps to fetch all the users from the FQDN Group and enroll them into REL-I
 <br>
 <br>
 
+
+<a name="5"></a>
 #5. APPLICATION
 
 The applications which need to be accessible through REL-ID need to be configured in the Gateway Manager.
@@ -349,18 +368,24 @@ The applications which need to be accessible through REL-ID need to be configure
 
 To add a new application:
 
+
+<a name="5.1"></a>
 ##5.1 Site Management
 
 Select Site Management. Clicking Search will display all the sites previously added.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture28.png"/>
 
+
+<a name="5.1.1"></a>
 ###5.1.1 Edit Site
 
 You can click on the Site Name and view the Site details. Here you can edit the site details and update the site.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture29.png"/>
 
+
+<a name="5.1.2"></a>
 ###5.1.2 Add Site
 
 To configure application that needs to be secured their entries have to be added as add site. Click on Add Site button and enter the site details
@@ -371,22 +396,30 @@ Click on **Save** the site details. Now provide the Tunnel Target and click on A
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture31.png"/>
 
+
+<a name="5.1.3"></a>
 ###5.1.3 Search Site
 
 You can enter the site name or click on search button to fetch a list of all the sites that have been added.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture32.png"/>
 
+
+<a name="5.1.4"></a>
 ###5.1.4 Delete Site
 
 Select a site from the list and click Delete Site to delete the site.
 
+
+<a name="5.2"></a>
 ##5.2 Application Group
 
 You can club a set of applications under an Application Group, and manage the application settings.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture33.png"/>
 
+
+<a name="5.2.1"></a>
 ###5.2.1 Search Application Group
 
 Enter the application group name and search to get the application group or click on search with the Application Group Name field empty to fetch a list of all the application groups created.
@@ -394,16 +427,21 @@ Enter the application group name and search to get the application group or clic
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture34.png"/>
 
 
+<a name="5.2.2"></a>
 ###5.2.2 Add Application Group
 
 Click on Add Application Group and fill the required fields and click save. An application group will be created.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture35.png"/>
 
+
+<a name="5.2.3"></a>
 ###5.2.3 Delete Application Group
 
 Select application group/s and click on Delete Application Group to delete application groups.
 
+
+<a name="5.2.4"></a>
 ###5.2.4 Bulk Action
 
 You can select group/s from the list of application groups and assign configured sites to the groups selected.
@@ -413,19 +451,23 @@ You can select group/s from the list of application groups and assign configured
 3.  From the list of sites select sites to be assigned and Save
     <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture36.png"/>
 
-
+<a name="5.3"></a>
 ##5.3 Application Management
 
 This interface enables you to add new applications, search/view/modify the existing application settings.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture37.png"/>
 
+
+<a name="5.3.1"></a>
 ###5.3.1 Search
 
 Enter the application name and search to get the application group or click on search with the Application Name field empty to fetch a list of all the applications created.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture38.png"/>
 
+
+<a name="5.3.2"></a>
 ###5.3.2 Add/View/Edit Application
 
 1.  **Application Details:** You can create an application by providing the required fields
@@ -452,6 +494,8 @@ Enter the application name and search to get the application group or click on s
 3.  **Application Group**: View and associate Application Group/s to the application. Save application.
     <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture41.png"/>
 
+
+<a name="5.3.3"></a>
 ###5.3.3 Delete Application
 
 Select application/s from the list and click on Delete Application
@@ -460,16 +504,22 @@ Select application/s from the list and click on Delete Application
 <br>
 <br>
 
+
+<a name="6"></a>
 #6 REPORTS
 
 The Gateway Manager enables you to generate various types of reports. The reports are majorly categorized as User Reports and Server Reports
 
+
+<a name="6.1"></a>
 ##6.1 User Reports
 
 You can generate user monitoring reports such as:
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture43.png"/>
 
+
+<a name="6.1.1"></a>
 ###6.1.1 Audit report
 
 This report provides details of all the activities performed by Gateway Manager Console Users.
@@ -480,6 +530,8 @@ Specify the date range and select a report type from the dropdown to generate th
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture45.png"/>
 
+
+<a name="6.1.2"></a>
 ###6.1.2 User Statistics Report
 
 You can choose to export various types of reports:
@@ -498,34 +550,46 @@ You can choose to export various types of reports:
 
 **Prompt Statistics Report** – A comprehensive report for the said duration.
 
+
+<a name="6.2"></a>
 ##6.2 Server Report
 
 You can generate reports for all the server related activity
 
+
+<a name="6.2.1"></a>
 ###6.2.1 Server Access Report
 
 Generate a detailed or summary report for all or any of the events mentioned in the drop down menu. User/IP specific reports could also be generated.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture47.png"/>
 
+
+<a name="6.2.2"></a>
 ###6.2.2 Server Monitoring Report
 
 Helps generate server monitoring for a specific IP or Host name. You can generate current/ hourly/daily and user specific statistic report
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture48.png"/>
 
+
+<a name="6.2.3"></a>
 ###6.2.3 SMS Pusher Report
 
 Report on the SMS’s being sent by the server to the SMS Gateway, based on their status (All/Queued/Sent/Failed)
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture49.png"/>
 
+
+<a name="6.2.4"></a>
 ###6.2.4 Email Pusher Report
 
 Report on the Email’s being sent by the server, based on their status (All/Queued/Sent/Failed)
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture50.png"/>
 
+
+<a name="6.2.5"></a>
 ###6.2.5 User Detailed Report
 
 Helps generate detailed report for a specific user
@@ -535,24 +599,32 @@ Helps generate detailed report for a specific user
 <br>
 <br>
 
+
+<a name="7"></a>
 #7 ADMINISTRATION
 
 It provides you with an interface to create role, administrative console users and assign roles to the users.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture52.png"/>
 
+
+<a name="7.1"></a>
 ##7.1 Console User Management
 
 You can view, edit and create console users with this interface.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture53.png"/>
 
+
+<a name="7.1.1"></a>
 ##7.1.1 Search
 
 Enter the Login ID and/or specify status and/or roll parameters to conduct the search or click on search with the Login ID field empty and any in the Status and Roles fields to fetch a list of all the enrolled console users.
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture54.png"/>
 
+
+<a name="7.1.1"></a>
 ###7.1.2 Add New Console User
 
     1. Click on the Add New Console User
@@ -561,6 +633,8 @@ Enter the Login ID and/or specify status and/or roll parameters to conduct the s
    
     <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture55.png"/>
 
+
+<a name="7.1.3"></a>
 ###7.1.3 Actions
 
 You can select the user and perform various activities for the selected console user
@@ -576,14 +650,17 @@ You can select the user and perform various activities for the selected console 
 <br>
 <br>
 
+<a name="8"></a>
 #8 LICENSE
 
+<a name="8.1"></a>
 #8.1 License Management
 
 You can view license details and upload license
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture57.png"/>
 
+<a name="8.1.1"></a>
 ###8.1.1 The Overview Tab
 
 **Server Device ID**: Displays the Server ID and the Server Device ID. The Sever Device ID is required to generate renewal/upgrade license. The administrator can export the Server Device ID by clicking on “Export Server Device ID” which is downloaded as a text file.
@@ -596,12 +673,16 @@ The administrator sends this Server Device ID file to Uniken and Uniken administ
 
 **Current Server Status**: Provides details on user count, group count and current time stamp
 
+
+<a name="8.1.2"></a>
 ###8.1.2 Action Tab
 
 **Upload License:** Enables user to upload license
 
 <img src="https://github.com/Team-Uniken/REL-ID_PoCs/blob/master/gateway-assets/Picture58.png"/>
 
+
+<a name="8.1.3"></a>
 ###8.1.3 License Upload
 
 -   Once the user receives the license from Uniken Administrator, he/she can save it at a location on the local drive.
