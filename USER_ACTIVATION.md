@@ -1,17 +1,19 @@
-Table of Contents
-1.	Introduction	4
-1.1.	Prerequisite	4
-2.	Installation Procedure	4
-2.1.	Download and Installation of REL-ID client on the machine	4
-2.2.	Launch REL-ID SecureApp	4
-2.3.	Set Connection Profile	5
-2.4.	Get User ID and Activation Credentials	5
-3.	One Time Activation	5
-4.	Subsequent Login	9
+#USER ACTIVATION
+
+###Table of Contents
+- 1.	[Introduction][1]
+- 1.1.	[Prerequisite][1.1]
+- 2.	[Installation Procedure][2]
+- 2.1.	[Download and Installation of REL-ID client on the machine][2.1]
+- 2.2.	[Launch REL-ID SecureApp][2.2]
+- 2.3.	[Set Connection Profile][2.3]
+- 2.4.	[Get User ID and Activation Credentials][2.4]
+- 3.	[One Time Activation][3]
+- 4.	[Subsequent Login][4]
 
 
 
-#Document Control Information
+###Document Control Information
 
 ####Basic Details
 
