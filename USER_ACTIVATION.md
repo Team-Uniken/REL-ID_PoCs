@@ -1,15 +1,15 @@
 #USER ACTIVATION
 
 ###Table of Contents
-- 1.	[Introduction][1]
-- 1.1.	[Prerequisite][1.1]
-- 2.	[Installation Procedure][2]
-- 2.1.	[Download and Installation of REL-ID client on the machine][2.1]
-- 2.2.	[Launch REL-ID SecureApp][2.2]
-- 2.3.	[Set Connection Profile][2.3]
-- 2.4.	[Get User ID and Activation Credentials][2.4]
-- 3.	[One Time Activation][3]
-- 4.	[Subsequent Login][4]
+- 1.	[Introduction](#1)
+- 1.1.	[Prerequisite](#1.1)
+- 2.	[Installation Procedure](#2)
+- 2.1.	[Download and Installation of REL-ID client on the machine](#2.1)
+- 2.2.	[Launch REL-ID SecureApp](#2.2)
+- 2.3.	[Set Connection Profile](#2.3)
+- 2.4.	[Get User ID and Activation Credentials](#2.4)
+- 3.	[One Time Activation](#3)
+- 4.	[Subsequent Login](#4)
 
 
 
@@ -50,15 +50,16 @@ The Document Control Information section contains the contact details for inquir
 
 
 
-
+<a id="1"></a>
 #1.	Introduction 
 The purpose of this document is to outline process and detailed steps involved in the REL-ID Secure Access (REL-ID APP) Installation and Activation. 
 
+<a id="1.1"></a>
 ##1.1	Prerequisite 
 * User would be shared Activation Credentials (Verification Key & Activation Code) by Uniken Administrator for Activating User ID 
 * User Machine should have access to Internet
 
-
+<a id="2"></a><a id="2.1"></a>
 #2.	Installation Procedure 
 ##2.1	Download and Installation of REL-ID client on the machine
 * User can download REL-ID client from the following link: http://46.137.245.22:8080/REL-ID\_Client/REL-ID\_SecureApp\_windows4.3.0.19.msi 
@@ -67,6 +68,7 @@ Download it from the URL shared by the administrator and Save the MSI on the Loc
 * Double Click on the “REL-ID_SecureApp.msi” to install. 
 * On successful installation a shortcut to REL-ID SecureApp will be created on the Desktop. 
 
+<a id="2.2"></a>
 ##2.2 Launch REL-ID SecureApp
 * Double click on the “REL-ID SecureApp” shortcut placed on Desktop or Locate and Run the EXE in the REL-ID Folder to Launch the REL-ID application.  
 
@@ -74,6 +76,7 @@ Download it from the URL shared by the administrator and Save the MSI on the Loc
 
 * The following REL-ID App will be launched
 
+<a id="2.3"></a>
 ##2.3	Set Connection Profile
 * This step is not required in a production (Go Live) scenario as the connection profile will be hard coded/burnt into the REL-ID SecureApp. 
 * Along with the user activation credentials, the user would receive a text file to set the connection configuration. 
@@ -90,9 +93,11 @@ Download it from the URL shared by the administrator and Save the MSI on the Loc
 * You will see the name of the profile created for you by the Uniken PoC team.  Check with the team if you do not seet it.
 * Select that profile and click **Save**.
 
+<a id="2.4"></a>
 ##2.4.	Get User ID and Activation Credentials 
 * User will receive the User Activation credentials (Verification Key and Activation Code) from Uniken Administrator. 
 
+<a id="3"></a>
 #3.	One Time Activation
 * Launch REL-ID SecureApp client. 
 * Click on Log-in. 
@@ -129,6 +134,7 @@ Download it from the URL shared by the administrator and Save the MSI on the Loc
 
 * The REL-ID App will have TILES for – RDP access, WebSite Access along with the other settings tiles. 
 
+<a id="4"></a>
 #4.	Subsequent Login
 * Double click on the “REL-ID SecureApp” shortcut placed on Desktop or Locate and Launch the REL-ID application.
 * The following REL-ID App will be launched
